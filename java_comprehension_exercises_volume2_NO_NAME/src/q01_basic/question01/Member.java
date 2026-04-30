@@ -9,7 +9,7 @@ class Member {
 	int rank;
 
 	public void showMember() {
-		System.err.println("***MEMBER DATA***");
+		System.out.println("***MEMBER DATA***");
 		System.out.println("name:" + name);
 		System.out.println("age:" + age);
 		System.out.println("rank:" + rank);
