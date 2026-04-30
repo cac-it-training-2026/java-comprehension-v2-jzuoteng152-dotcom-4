@@ -18,7 +18,7 @@ public class ConsoleReader {
 	public String inputString() throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-		return "";
+		return reader.readLine();
 	}
 
 	/**
@@ -31,7 +31,7 @@ public class ConsoleReader {
 	public int inputNumber() throws IOException, NumberFormatException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-		return 0;
+		return Integer.parseInt(reader.readLine());
 
 	}
 
