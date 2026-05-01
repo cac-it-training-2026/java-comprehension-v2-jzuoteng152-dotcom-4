@@ -5,7 +5,7 @@ package q01_basic.question06;
  * Memberクラス、NonMemberクラスに継承する
  * 
  */
-abstract class AbstMember {
+public abstract class AbstMember {
 
 	/**
 	 * name protected access
